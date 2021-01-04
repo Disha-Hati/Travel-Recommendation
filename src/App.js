@@ -4,8 +4,8 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Travel Recommendation</h1>
+      <h2>Get information about your dream destination</h2>
     </div>
   );
 }
