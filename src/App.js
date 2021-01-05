@@ -43,17 +43,7 @@ export default function App() {
 
       <div>
         {Object.keys(travel).map((theme) => (
-          <button
-            onClick={() => genreClickHandler(theme)}
-            style={{
-              cursor: "pointer",
-              background: "#E5E7EB",
-              borderRadius: "0.5rem",
-              padding: "0.5rem  1rem",
-              border: "1px solid black",
-              margin: "1rem 0.3rem"
-            }}
-          >
+          <button onClick={() => genreClickHandler(theme)} className="btn">
             {theme}
           </button>
         ))}
