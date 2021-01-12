@@ -49,7 +49,7 @@ export default function App() {
         ))}
       </div>
 
-      <div>
+      <div className="list">
         <ul style={{ paddingInlineStart: "0" }}>
           {travel[selectedTheme].map((place) => (
             <li
@@ -59,7 +59,7 @@ export default function App() {
                 padding: "1rem",
                 border: "1px solid #D1D5DB",
                 width: "70%",
-                margin: "1rem 0rem",
+                margin: "5rem ",
                 borderRadius: "0.5rem"
               }}
             >
